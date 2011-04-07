@@ -183,4 +183,4 @@ id2name.keySet().each {
 
 
 
-man.saveOntology(ont, IRI.create("file:/tmp/fma1.owl"))
+man.saveOntology(ont, new OWLXMLOntologyFormat(), IRI.create("file:/tmp/fma1.owl"))
